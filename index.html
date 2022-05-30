@@ -10,18 +10,19 @@
             box-sizing: border-box;
         }
         .gallery {
-            margin: 0;
-            padding: 0;
+            display: flex;
+        }
+        div > div {
+          border: 1px dotted grey;
+          margin: 16px;
         }
       .image {
         
         height: 200px;
         width: 200px;
         display: inline-block;
-        margin-left: 16px;
-        margin-top: 16px;
-        margin-right: 16px;
-        border: 1px dotted grey;
+    
+       
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
